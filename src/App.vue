@@ -1,9 +1,12 @@
 <template>
   <div id="app">
+    <h1>To do list</h1>
+    <p>1. 在左侧输入待办事项</p>
+    <p>2. 将待办事项拖拽到右侧象限</p>
     <div class="wrap">
       <div class="left-block">
         <div class="input-wrap">
-          <input v-model="input" type="text" @keyup.enter="add" />
+          <input v-model="input" type="text" @keyup.enter="add" placeholder="请输入待办事项"/>
           <div class="add-btn" @click="add">添加</div>
         </div>
         <ul class="to-do-list">
