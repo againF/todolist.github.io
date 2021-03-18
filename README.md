@@ -1,5 +1,6 @@
 # todolist
-
+## Preview
+https://againf.github.io/todolist.github.io/docs/
 ## Project setup
 ```
 npm install
