@@ -3,6 +3,8 @@
     <h1>To do list</h1>
     <p>1. 在左侧输入待办事项</p>
     <p>2. 将待办事项拖拽到右侧象限</p>
+    <p><span style="color:red">警告:</span>这个是本地项目所以使用了localStorage存储待办事项。
+意味着所有用户添加的待办事项共享，所以请不要输入敏感隐私信息。你添加的待办事项也可以被其他用户删除，所以本项目仅供代码交流使用，不保证用户输入信息的安全性。</p>
     <div class="wrap">
       <div class="left-block">
         <div class="input-wrap">
